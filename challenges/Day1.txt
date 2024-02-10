@@ -1,0 +1,17 @@
+max min array ---
+
+public class Solution {
+    public int solve(int[] A) {
+        int min = A[0];
+        int max = A[0];
+        for(int i:A){
+        min = Math.min(min,i);
+        max = Math.max(max,i);
+        }
+        return min + max;
+    }
+}
+
+
+
+Links :- https://www.youtube.com/watch?v=0154gF0-Opc

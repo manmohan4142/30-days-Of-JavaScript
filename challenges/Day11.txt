@@ -1,0 +1,12 @@
+public class Solution {
+    public int[] solve(String A) {
+        int n = A.length();
+        int count[] = new int[26];
+        for(int i=0; i<n; i++){
+        char ch = A.charAt(i);
+        int value = ch-97;
+        count[value]++;
+        }
+        return count;
+    }
+}
